@@ -1,0 +1,31 @@
+.about {
+	max-width: 600px;
+	background-color: rgba(0, 0, 0, 0.164);
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 2px solid #323232;
+	box-shadow: 4px 4px#555555;
+	padding: 20px;
+	position: relative;
+	perspective: 1000px;
+	text-align: justify;
+	font-family: sans-serif;
+	color: rgba(255, 255, 255, 0.76);
+	font-weight: 600;
+	line-height: 200%;
+}
+
+.about a {
+	display: flex;
+	justify-self: end;
+	height: 40px;
+	padding: 2px 5px 2px 5px;
+	border-radius: 5px;
+	border: 2px solid #323232;
+	background-color: #fff;
+	box-shadow: 4px 4px #323232;
+	font-size: 17px;
+	font-weight: 600;
+	color: #323232;
+	cursor: pointer;
+}

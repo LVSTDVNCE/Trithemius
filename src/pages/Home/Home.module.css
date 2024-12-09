@@ -1,0 +1,20 @@
+.section {
+	background-color: #666;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 2px solid #323232;
+	box-shadow: 4px 4px#555555;
+	width: 300px;
+	padding: 20px;
+	position: relative;
+	perspective: 1000px;
+	text-align: center;
+}
+
+.section__wrapper {
+	margin-bottom: 20px;
+}
+
+.section__wrapper:last-child {
+	margin-bottom: 0;
+}
